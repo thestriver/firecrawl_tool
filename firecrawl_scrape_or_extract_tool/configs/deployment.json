@@ -1,0 +1,20 @@
+[
+  {
+    "name": "firecrawl_deployment",
+    "module": {
+      "name": "firecrawl_tool",
+      "description": "A tool for scraping websites using Firecrawl API",
+      "parameters": "{tool_name: str, tool_input_data: str}",
+      "module_type": "tool",
+      "module_version": "v0.1",
+      "module_entrypoint": "run.py",
+      "execution_type": "package"
+    },
+    "node": {
+      "ip": "localhost"
+    },
+    "config": {
+      "config_name": "tool_config_1"
+    }
+  }
+]

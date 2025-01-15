@@ -1,9 +1,12 @@
 [tool.poetry]
-name = "module-template"
+name = "firecrawl_scrape_or_extract_tool"
 version = "0.1.0"
-description = ""
-authors = ["Richard Blythman <richardblythman@gmail.com>"]
+description = "A tool to scrape or extract data from a website using FireCrawl"
+authors = ["Dean <dean@aidevmode.com>"]
 readme = "README.md"
+packages = [
+    { include = "firecrawl_scrape_or_extract_tool", from = "." }
+]
 
 [tool.poetry.dependencies]
 python = ">=3.10,<=3.13"
