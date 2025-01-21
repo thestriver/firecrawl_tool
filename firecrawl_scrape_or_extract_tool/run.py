@@ -94,17 +94,17 @@ if __name__ == "__main__":
     ))
 
     # Example usage for scraping
-    # input_params = {
-    #     "tool_name": "scrape_website",
-    #     "tool_input_data": "https://naptha.ai/"
-    # }
+    input_params = {
+        "tool_name": "scrape_website",
+        "tool_input_data": "https://naptha.ai/"
+    }
 
     # Example usage for extraction
-    input_params = {
-        "tool_name": "extract_data",
-        "tool_input_data": "https://naptha.ai/",
-        "query": "Extract the company mission from the page."
-    }
+    # input_params = {
+    #     "tool_name": "extract_data",
+    #     "tool_input_data": "https://naptha.ai/",
+    #     "query": "Extract the company mission from the page."
+    # }
     
     # For scraping
     #naptha run tool:firecrawl_tool -p "tool_name='scrape_website', tool_input_data='https://naptha.ai/'"
