@@ -4,7 +4,7 @@ import logging
 from typing import Dict
 from dotenv import load_dotenv
 from typing import Dict
-from firecrawl_scrape_or_extract_tool.schemas import InputSchema
+from firecrawl_tool.schemas import InputSchema
 from naptha_sdk.schemas import ToolDeployment, ToolRunInput
 from naptha_sdk.user import sign_consumer_id
 
@@ -89,7 +89,7 @@ if __name__ == "__main__":
     naptha = Naptha()
     deployment = asyncio.run(setup_module_deployment(
         "tool", 
-        "firecrawl_scrape_or_extract_tool/configs/deployment.json",
+        "firecrawl_tool/configs/deployment.json",
         node_url=os.getenv("NODE_URL")
     ))
 

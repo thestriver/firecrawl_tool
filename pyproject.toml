@@ -1,11 +1,11 @@
 [tool.poetry]
-name = "firecrawl_scrape_or_extract_tool"
+name = "firecrawl_tool"
 version = "0.1.0"
 description = "A tool to scrape or extract data from a website using FireCrawl"
 authors = ["Dean <dean@aidevmode.com>"]
 readme = "README.md"
 packages = [
-    { include = "firecrawl_scrape_or_extract_tool", from = "." }
+    { include = "firecrawl_tool", from = "." }
 ]
 
 [tool.poetry.dependencies]
