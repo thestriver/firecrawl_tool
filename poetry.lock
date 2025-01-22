@@ -771,7 +771,7 @@ tomlkit = "^0.13.2"
 type = "git"
 url = "https://github.com/NapthaAI/naptha-sdk.git"
 reference = "HEAD"
-resolved_reference = "90e2a909dc8fdd9e665cbbc3cdc56c2974777d66"
+resolved_reference = "12213f80daf68911714c45b539eabc4297ade95f"
 
 [[package]]
 name = "natsort"
